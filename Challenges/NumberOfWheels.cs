@@ -1,4 +1,6 @@
-public class NumberOfWheels
+namespace Challenges
+{
+    public class NumberOfWheels : IChallenge
 {
     public void Execute()
     {
@@ -54,4 +56,5 @@ public class NumberOfWheels
         public int NumberOfWheels => 6;
         public string Name => typeof(Truck).Name;
     }
+}
 }
